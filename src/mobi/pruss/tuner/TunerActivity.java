@@ -170,11 +170,11 @@ public class TunerActivity extends Activity {
 	}
 	
 	public void clickedOn(View v) {
-		new TweakTask(this).execute("pm enable com.android.systemui/.tuner.TunerActivity", "^Component.*", "^Error.*");
+		new TweakTask(this).execute("su -c dark");
 	}
 
 	public void clickedOff(View v) {
-		new TweakTask(this).execute("pm disable com.android.systemui/.tuner.TunerActivity",  "^Component.*", "^Error.*");
+		new TweakTask(this).execute("su -c white");
 	}
 
 	public void otherApps(View v) {

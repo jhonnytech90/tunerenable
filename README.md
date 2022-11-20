@@ -1,2 +1,2 @@
-# tunerenable
-Enable UI tuner on some Android 6 devices
+# StockMod Tuner
+enable edits and theme dark for stockmod zb634kl
